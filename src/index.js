@@ -1,7 +1,11 @@
-// Create a new component
-// This component should produce some HTML.
-cosnt App = function() {
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// This is a class of a component
+// To create an instance of this class use <App />
+const App = function() {
   return <div>Hi</div>;
 }
 
-// Take this component's generated HTML and put it on page.
+// Render App inside an element with class name 'container'
+ReactDOM.render(<App />, document.querySelector('.container'));
