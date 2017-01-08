@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 // This is a class of a component
 // To create an instance of this class use <App />
-const App = function() {
+const App = () => {
   return <div>Hi</div>;
 }
 
