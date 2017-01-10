@@ -16,8 +16,8 @@ const App = () => {
     <div>
       <SearchBar />
     </div>
-  )
-}
+  );
+};
 
 // Render App inside an element with class name 'container'
 ReactDOM.render(<App />, document.querySelector('.container'));
